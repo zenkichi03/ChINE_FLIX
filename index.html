@@ -4,20 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ChINE-FLIX</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1 id="logo-site">ChINE-FLIX</h1>      
-    </header>
-    <swiper-container class="mySwiper" navigation="true" pagination="true" keyboard="true" mousewheel="true" css-mode="true">
-        <swiper-slide>Slide 1</swiper-slide>
-        <swiper-slide>Slide 2</swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
-        <swiper-slide>Slide 4</swiper-slide>
-        <swiper-slide>Slide 5</swiper-slide>
-  </swiper-container>
+    <!-- HEADER -->
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html"><h4>CHINE FLIX</h4></a>
+        <ul class="nav_menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Filmes Populares</a></li>
+          <li><a href="#">Adicionados Recentemente</a></li>
+          <li><a href="contato.html">Entre em contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- SLIDER -->
+
+    <swiper-container
+      class="mySwiper"
+      pagination="true"
+      pagination-clickable="true"
+      slides-per-view="3"
+      free-mode="true"
+    >
+      <swiper-slide
+        ><img
+          src="https://br.web.img3.acsta.net/pictures/22/12/05/09/07/2007563.jpg"
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://upload.wikimedia.org/wikipedia/pt/thumb/9/9b/Avengers_Endgame.jpg/250px-Avengers_Endgame.jpg"
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://br.web.img2.acsta.net/pictures/23/04/03/19/45/2854005.jpg"
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/b169c340744fd0abf8e63c9d5b300c54cdfcf007558c16fbb9b89afaa0c7ee22._RI_TTW_.jpg"
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f193986c7aea470e8bd755ed76f28c4077a14d1dd2c1d946ceeee117074bc94._RI_TTW_.jpg"
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f193986c7aea470e8bd755ed76f28c4077a14d1dd2c1d946ceeee117074bc94._RI_TTW_.jpg"
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f193986c7aea470e8bd755ed76f28c4077a14d1dd2c1d946ceeee117074bc94._RI_TTW_.jpg"
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f193986c7aea470e8bd755ed76f28c4077a14d1dd2c1d946ceeee117074bc94._RI_TTW_.jpg"
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f193986c7aea470e8bd755ed76f28c4077a14d1dd2c1d946ceeee117074bc94._RI_TTW_.jpg"
+      /></swiper-slide>
+    </swiper-container>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container footer_container">
+        <div class="footer_1">
+          <a href="index.html" class="footer_logo"><h4>CHINE FLIX</h4></a>
+          <p>Site feito para o projeto de filmes</p>
+        </div>
+
+        <div class="footer_3">
+          <h4>Privacidade</h4>
+          <ul class="privacy">
+            <li><a href="#"></a>Politica de privacidade</li>
+            <li><a href="#"></a>Termos e condições</li>
+            <li><a href="#"></a>Politica de reembolso</li>
+          </ul>
+        </div>
+
+        <div class="footer_4">
+          <h4>Nos Contate</h4>
+          <div>
+            <p>numero de telefone</p>
+            <p>email@email</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <small>Copyright &copy; Thiago Gomes</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
